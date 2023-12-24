@@ -104,7 +104,7 @@ app.post('/booking/create/:id', (req, res) => {
     return res.status(201).send({
       message: "Room booked",
       Bookings: bookings,
-      added: newBooking,
+      LastBooking: newBooking,
     });
   } catch (error) {
     console.error("Error:", error);
