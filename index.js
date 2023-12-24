@@ -38,7 +38,6 @@ let customers = [{
 app.post("/rooms/create", (req, res) => {
     const room = req.body
     const idExists = rooms.find((rooms)=> rooms.roomId === room.roomId)
-    // console.log(idExists)
     if(idExists !== undefined){
         return res.status(400).send({message:"Room already exists."});
     }
