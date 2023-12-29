@@ -47,4 +47,4 @@ This is a simple Room Booking System implemented using Node.js and Express.
  - Endpoint: /customers/:name
  - Request Parameters: name (Customer name)
  - https://hall-booking-api-ggft.onrender.com/customer/:name
- - https://hall-booking-api-ggft.onrender.com/customer/Harikrishnan
+ - https://hall-booking-api-ggft.onrender.com/customers/Harikrishnan
