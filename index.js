@@ -14,9 +14,9 @@ let rooms = [{
 
 let bookings = [{
     customer: "Harikrishnan",
-    date: "21/12/2023",
-    startTime: "06.00pm",
-    endTime: "06.00am",
+    date: "2023-12-20",
+    startTime: "18:00",
+    endTime: "06:00",
     status: "Booked",
     roomId: "R1"
 }]
@@ -25,9 +25,9 @@ let customers = [{
     name: "Harikrishnan",
     bookings : [{
         customer: "Harikrishnan",
-        date: "21/12/2023",
-        startTime: "06.00pm",
-        endTime: "06.00am",
+        date: "2023-12-20",
+        startTime: "18:00",
+        endTime: "06:00",
         roomId: "R1",
         status: "Booked"
     }]
